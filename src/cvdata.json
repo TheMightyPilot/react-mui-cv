@@ -1,16 +1,17 @@
 {
-  "name": "Laurie McIver",
-  "dateOfBirth": "30/04/1999",
+  "$schema": "schemas/cvdata.schema.json",
+  "name": "John Doe",
+  "dateOfBirth": "01/01/1990",
   "contact": {
-    "email": "lauriemciver1999@gmail.com",
-    "phone": "07872 875597",
-    "linkedin": "linkedin.com/in/laurie-mciver",
-    "website": "lauriemciver.com",
-    "location": "Edinburgh, Central Scotland"
+    "email": "johndoe@example.com",
+    "phone": "123-456-7890",
+    "linkedin": "linkedin.com/in/john-doe",
+    "website": "johndoe.com",
+    "location": "Anytown, USA"
   },
   "skills": [
-    "JS",
-    "NodeJS",
+    "JavaScript",
+    "Node.js",
     "React",
     "Java",
     "Groovy",
@@ -28,7 +29,7 @@
     "Kibana",
     "Jenkins",
     "Blender",
-    "Corel Draw x4",
+    "Corel Draw",
     "Autodesk Inventor",
     "Unity"
   ],
@@ -36,131 +37,52 @@
     "Hard-working, reliable & trustworthy",
     "Fast learner working with computer software",
     "Keen & enthusiastic",
-    "Good attendence record"
+    "Good attendance record"
   ],
   "education": [
     {
-      "title": "1 Year QA Software & Web Developer Apprenticeship",
-      "dateFrom": "01/01/2018",
-      "dateTo": "01/01/2019",
+      "title": "Software Development Bootcamp",
+      "dateFrom": "01/01/2019",
+      "dateTo": "01/01/2020",
       "qualificationLevels": [
         {
-          "type": "SCQF Level 6",
+          "type": "Certificate",
           "qualifications": [
             {
-              "name": "Diploma for IT & Telecommunications Professionals",
+              "name": "Full Stack Web Development",
+              "grade": "Pass with Distinction"
+            },
+            {
+              "name": "Object-oriented Programming",
               "grade": "Pass"
             },
             {
-              "name": "Software Design Fundamentals",
-              "grade": "Level 7"
+              "name": "Database Management",
+              "grade": "Pass"
             },
             {
-              "name": "Investigating & defining customer requirements for IT & Telecoms systems",
-              "grade": "Level 6"
+              "name": "Frontend Frameworks",
+              "grade": "Pass"
             },
             {
-              "name": "Object-oriented computer programming 2",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Procedural Programming 2",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Testing IT & Telecoms systems 2",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Web Development 2",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Website Software 3",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Personal Effectiveness 2",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Interpersonal & written communications 2",
-              "grade": "Level 6"
-            },
-            {
-              "name": "Using the Internet 2",
-              "grade": "Level 5"
-            },
-            {
-              "name": "Health & Safety in IT & Telecoms",
-              "grade": "Level 4"
+              "name": "Backend Frameworks",
+              "grade": "Pass"
             }
           ]
         }
       ]
     },
     {
-      "title": "James Young High School",
-      "dateFrom": "01/01/2011",
-      "dateTo": "01/01/2017",
+      "title": "Anytown High School",
+      "dateFrom": "01/01/2006",
+      "dateTo": "01/01/2010",
       "qualificationLevels": [
         {
-          "type": "Advanced Higher",
+          "type": "High School Diploma",
           "qualifications": [
             {
-              "name": "Graphic Communication",
-              "grade": "Grade C"
-            }
-          ]
-        },
-        {
-          "type": "Higher",
-          "qualifications": [
-            {
-              "name": "Graphic Communication",
-              "grade": "Grade B"
-            },
-            {
-              "name": "Computing Science",
-              "grade": "Grade B"
-            },
-            {
-              "name": "Business Management",
-              "grade": "Grade C"
-            },
-            {
-              "name": "English",
-              "grade": "Grade C"
-            }
-          ]
-        },
-        {
-          "type": "SCQF Level 5",
-          "qualifications": [
-            {
-              "name": "Computing Games Development"
-            }
-          ]
-        },
-        {
-          "type": "National 4",
-          "qualifications": [
-            {
-              "name": "Physics"
-            },
-            {
-              "name": "Maths"
-            },
-            {
-              "name": "French"
-            }
-          ]
-        },
-        {
-          "type": "National 3",
-          "qualifications": [
-            {
-              "name": "Art & Design"
+              "name": "General Education",
+              "grade": "Pass"
             }
           ]
         }
@@ -169,55 +91,41 @@
   ],
   "volunteerExperience": [
     {
-      "title": "Game Server Administrator",
+      "title": "Community Service Volunteer",
       "dateFrom": "01/01/2015",
       "dateTo": "01/01/2017",
-      "statement": "Helped with the general running of a global reaching game server within a team spread around the world. I was to provide support to players for any queries or issues they may have about rules, donations, the server performance or other players. Other things included monitoring player activities and server performance through logs or other means to check for exploits or bugs which required attention and open tickets to get these resolved.\nFor my attempted Advanced Higher Computing Science qualification, I had designed and created a dynamic website to provide players of the server a site to visit and create an account with to purchase donation packs for use in the server. The site was written using HTML, CSS & PHP and used MariaDB to hold the required data which included the user accounts, basket information and the donations available."
+      "statement": "Volunteered at local community center, assisting with various activities and events."
     }
   ],
   "jobHistory": [
     {
-      "title": "CommerceIQ",
+      "title": "Tech Company X",
       "stages": [
         {
-          "jobTitle": "Software Development Engineer 2",
+          "jobTitle": "Software Engineer",
           "dateFrom": "01/07/2022",
           "dateTo": "Present"
         }
       ],
-      "statement": "E.FUNDAMENTALS was acquired by CommerceIQ.",
+      "statement": "Company Y acquired Tech Company X.",
       "highlights": [
-        "Helped work on Client-Settings application built in Ruby on Rails. This project was to create a system which we can configure clients for the efundamentals DSA application using a user friendly interface and a MySQL database for storing client data, as well as validation using Rails Active Record. This application/project was to take over from the Client Management system I had previously built at efundamentals.",
-        "Took over ownership as sole developer on the Client-Settings project to free up SAAS team development time. During this time I worked with the teams who used the application on a daily basis to gauge the priority of tasks and I expanded the system from the small amount of configuration it did to begin with, to the full configuration that used to exist in the legacy system and more. Went on to implement things such as user roles & permissions, audit logs, tracked jobs, CSV import & export and rollback functionality."
+        "Contributed to the development of a client-facing application using React.js and Node.js.",
+        "Led a team of developers to implement a new feature in the company's flagship product, resulting in increased user engagement."
       ]
     },
     {
-      "title": "E.FUNDAMENTALS",
+      "title": "Tech Startup Z",
       "stages": [
         {
-          "jobTitle": "Software Engineer",
-          "dateFrom": "01/01/2022",
+          "jobTitle": "Junior Software Developer",
+          "dateFrom": "01/01/2020",
           "dateTo": "01/07/2022"
-        },
-        {
-          "jobTitle": "Junior Software Engineer",
-          "dateFrom": "01/02/2019",
-          "dateTo": "01/02/2022"
-        },
-        {
-          "jobTitle": "Apprentice Developer",
-          "dateFrom": "01/01/2018",
-          "dateTo": "01/02/2019"
         }
       ],
-      "statement": "Joined e.fundamentals as an Apprentice Developer in January 2018 when I undertook a structured SVQ for software and web development. This was combined with on the job training as part of the product engineering team which allowed me to build upon the skills I learned from the apprenticeship course but while also gaining knowledge and experience in Java, JavaScript, Groovy, React, NodeJS, GCP, Elasticsearch, Kibana, Jenkins & the Agile SDLC.",
+      "statement": "Joined Tech Startup Z as a Junior Software Developer to gain experience in the industry.",
       "highlights": [
-        "Towards the end of my apprenticeship, I trained and lead a team of 3 new developers to create data gathering processes using Java, Groovy & Selenium and are the core of the e.fundamentals platform. This was delivered on time with tight customer deadlines.",
-        "Designed and implemented a user management system as part of my promotion to Junior Software Engineer and completing the apprenticeship course. This required following the full SDLC and presenting the completed project to key stakeholders in the company, including the Product Review board, Head of Engineering & Architecture and a final presentation to the CEO and CTO. The system was built with a React Frontend and an Express backend which has the CRUD API used to interact with the Elasticsearch database where the user settings are stored. Part of the project was to also include unit tests in both the front and back ends of the application using frameworks such as jest and mocha. The system is currently live & in daily use, it was recently updated to use Firebase and the frontend was updated to use the Material UI framework.",
-        "Winner of the 2019 e.fundamentals Hack day, where I worked in a pair to create a React Native app to allow consumers to save money on their online shop by searching e.fundamentals data to find the cheapest deals and best promotions across multiple retailers. This project then became Promo Nav, a web app hosted on Firebase which was a free trial of the main e.fundamentals service.",
-        "Implemented an onboarding screen for new users to the e.fundamentals platform to introduce them to the application and assist them in setting up initial filters to display data that matters to them the most & presented this new feature (as well as a small demo of the Hack day project) to the board of directors.",
-        "Trained an overseas team of 6 in Malaga to create and maintain gathering processes using a newly developed system and method, which included creating tests which would be run using cloud build to test that the data gathered was as expected. Also in this training, I assisted in introducing the new team to the e.fundamentals platform as a whole. This too like the previous training was done while meeting a tight customer deadline.",
-        "Designed and implemented a config management system to solve a lack of easy management of the config files, to speed up the processes for creating and updating the configs and to allow these processes to be performed by non-developers. The system was built with a React frontend, an Express backend and used Elasticsearch to store the JSON configs. The frontend uses the Monaco Editor and JSON schema to allow users to quickly edit the configs while restricting them to a correct structure and providing suggested values. This system is currently live and in daily use."
+        "Worked on various projects utilizing technologies such as Java, Python, and Ruby on Rails.",
+        "Participated in daily stand-up meetings to discuss project progress and impediments."
       ]
     }
   ]

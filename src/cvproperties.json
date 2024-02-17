@@ -1,4 +1,5 @@
 {
+  "$schema": "schemas/cvproperties.schema.json",
   "colors": {
     "primary": "#269E66",
     "secondary": "#63535B"
