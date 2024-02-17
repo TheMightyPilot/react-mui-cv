@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "primary": "#269E66",
+    "secondary": "#63535B"
+  },
+  "experienceSection": {
+    "showHighlightTitle": true
+  },
+  "volunteeringSection": {
+    "title": "Volunteer Experience",
+    "format": "experience"
+  }
+}
